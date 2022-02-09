@@ -6,7 +6,7 @@ const MovieSchema = new Schema({
     director_id : ObjectId,
     title:{
         type: String,
-        required:true
+        required:[true,'']
     },
     category: String,
     country:String,
