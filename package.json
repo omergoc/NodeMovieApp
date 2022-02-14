@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "npx mocha --exit --recursive"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
@@ -14,6 +17,7 @@
     "init": "^0.1.2",
     "jade": "^0.29.0",
     "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.2.0",
     "mongoose": "^6.2.0",
     "morgan": "~1.9.1"
   }
